@@ -1,5 +1,5 @@
 <?php
-include('db.php');
+include('pegawai_db');
 
 // Ambil data pegawai dan departemen
 $result = $conn->query("SELECT employees.id, employees.name, employees.position, employees.salary, departments.name AS department_name
