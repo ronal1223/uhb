@@ -5,7 +5,7 @@ $password = '';      // password database
 $database = 'pegawai_db'; // nama database
 
 // Membuat koneksi
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($159.65.129.1, $root, $@1234Uhb, $database);
 
 // Cek koneksi
 if ($conn->connect_error) {
