@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost'; // atau alamat server database
+$host = '159.65.129.1'; // atau alamat server database
 $username = 'root';  // username database
 $password = '';      // password database
 $database = 'pegawai_db'; // nama database
