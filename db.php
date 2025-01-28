@@ -1,14 +1,14 @@
 <?php
-$servername = "159.65.129.1"; // ganti dengan server Anda
-$username = "root";        // ganti dengan username MySQL Anda
-$password = "@1234Uhb";            // ganti dengan password MySQL Anda
-$dbname = "pegawai";       // ganti dengan nama database Anda
+$host = 'localhost'; // atau alamat server database
+$username = 'root';  // username database
+$password = '';      // password database
+$database = 'pegawai_db'; // nama database
 
-// Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Membuat koneksi
+$conn = new mysqli($host, $username, $password, $database);
 
 // Cek koneksi
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Koneksi gagal: " . $conn->connect_error);
 }
 ?>
